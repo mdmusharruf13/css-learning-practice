@@ -1,0 +1,1112 @@
+ :root{
+    --primary-color:red;
+    --secondary-color:green;
+    --teritary-color:blue;
+ }
+ 
+ /* body{ */
+    /* background-color:black;
+    color:white; */
+    /* border: 3px solid  darkblue; */
+    /* height:1000px; */
+/* } */
+/*
+.para1{
+    background-color:green;
+}
+.par1{
+    color:yellow;
+}
+p{
+    color:yellow;
+}
+#pp1{
+    color:yellow;
+}
+.ppp1{
+    color:red;
+} 
+p1{
+    color:green;
+} */
+
+/* background */
+/* 
+#bg{
+    background-image:url('circle-images.jfif');
+    background-repeat:no-repeat;
+    /* background-position:100px 0; */
+
+    /* background-size:100% 100%; */ /*it will strech the image */
+
+    /* background-size:cover;  */
+    /* browser tries to strech by itself but it cut the photo somewhere */
+
+    /*background-size:contain; */ /* it won't strech the image but does'nt cover the whole background */
+    /* background-attachment:scroll; */
+/* } */
+
+/* types of borders-styles */
+#borderr1{
+    border-style:solid;
+    border-top-color:red;
+    border-right-color:green;
+    border-bottom-color:blue;
+    border-left-color:orange;
+}
+#borderr2{
+    border-style:dashed;
+}
+#borderr3{
+    border-style:dotted;
+}
+#borderr4{
+    border-style:double;
+    border-top-width:10px;
+    border-right-width:15px;
+    border-bottom-width:12px;
+    border-left-width:16px;
+}
+#borderr5{
+    border-style:groove;
+    border-width:10px;
+    border-top-left-radius:5px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:20px;
+}
+#borderr6{
+    border-style:inset;
+}
+#borderr7{
+    border-style:outset;
+}
+#borderr8{
+    border-style:ridge;
+}
+.border{
+    border-color:red;
+    background-color:yellow;
+    border:4px;
+}
+#ppp{
+    border: 2px solid;
+    width:50%;
+    height:15%;
+    /* max-width: 700px;
+    max-height:500px;
+    min-width:300px;
+    min-height:200px; */
+}
+#padd{
+    border:3px solid;
+    /* padding:25px; */
+    padding-top:20px;
+    padding-right:15px;
+    padding-bottom:10px;
+    padding-left:50px;
+}
+
+/* margin */
+#main{
+    border:3px solid;
+}
+#main > #d1{
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+#main > #d2{
+    border:2px solid red;
+    padding:5px;
+    margin-top:-15px;
+    margin-right:30px;
+    margin-left:40px;
+    margin-bottom:-10px;
+}
+#main > #d3{
+    border:2px solid red;
+    padding:7px;
+    margin:0 20px 25px 30px;
+}
+#text{
+    width:500px;
+    border:3px solid blue;
+    /* color:green;
+    text-align:justify; */
+    word-wrap:break-word;
+}
+#img{
+    border:1px solid red;
+    /* vertical-align:top; */
+    vertical-align:middle;
+    opacity:0.5;
+    /* vertical-align:none; */
+}
+#text2{
+    border:2px solid orange;
+    /* text-decoration:overline; */
+    /* text-decoration:line-through; */
+    text-decoration:underline;
+    /* text-transform:uppercase; */
+    /* text-transform:lowercase; */
+    text-transform:capitalize;
+    line-height:30px;
+    text-indent:50px;
+    letter-spacing:5px;
+    word-spacing:20px;
+}
+#pree{
+    white-space:pre;
+    border:1px solid green;
+}
+#shadow{
+    font-size:50px;
+    text-shadow:7px -12px 6px green;
+}
+#vertical{
+    border:3px solid pink;
+    writing-mode:vertical-lr;
+    /* writing-mode:vertical-rl; */
+}
+#abtn{
+    border-radius:5px;
+    background-color:white;
+}
+#anchor{
+    text-decoration:none;
+    text-transform:capitalize;
+    font-size:20px;
+}
+#anchor:link{
+    color:red;
+}
+#anchor:visited{
+    color:black;
+}
+#anchor:hover{
+    color:green;
+    text-decoration:underline;
+    font-size:30px;
+}
+#anchor:active{
+    color:violet;
+}
+#font1{
+    border: 2px solid ;
+    border-radius:5px;
+    font-style:italic;
+    font-size:20px;
+    font-weight:1000;
+    color:orange;
+}
+#CSS_unit{
+    border:3px solid green;
+    /*padding:10px;
+    margin:5px;
+    text-transform:capitalize; */
+    /* width:10cm; */
+    /* width:150mm; */
+    /* width:300px; */
+    /* width:30pc; */
+    /* height:10vh;
+    width:50vw; */
+
+    font-size:30px;
+}
+html{
+    font-size:14px;
+}
+#child{
+    border:3px solid greenyellow;
+    /* font-size:2em; */ /*em inherit the size from parent */
+    font-size:2rem;
+    /* cursor:all-scroll; */
+    /* cursor:cell; */
+    /* cursor:col-resize; */
+    /* cursor:context-menu; */
+    /* cursor:copy; */
+    /* cursor:crosshair; */
+    /* cursor:e-resize; */
+    /* cursor:grab; */
+    /* cursor:help; */
+    /* cursor:not-allowed; */
+    /* cursor:pointer; */
+    /* cursor:progress; */
+    /* cursor:wait;  */
+    /* cursor:zoom-in; */
+    /* cursor:zoom-out; */ 
+}
+#imp1{
+    background-color:yellow !important;
+    border:3px solid green;
+    padding:10px;
+    margin:30px;
+    width:50vw;
+    box-shadow: 5px 10px 6px yellowgreen ;
+     /* this "!important" attribure gives the priority */
+}
+#opacityy{
+    background-color:grey;
+    width:50vw;
+    height:30vh;
+    opacity:0.5;
+}
+#imgg{
+    filter:blur(5px);
+    /* filter:brightness(150%); */
+    /* filter:contrast(150%); */
+    /* filter:drop-shadow(5px 10px 6px orange); */
+    /* filter:grayscale(50%); */
+    /* filter:saturate(150%); */
+    /* filter:hue-rotate(30deg); */
+    /* filter:invert(100%); */
+    /* filter:opacity(70%); */
+    /* filter:speia(100%); */
+}
+#gradient{
+    height:500px;
+    border:2px solid grey;
+    background-image:linear-gradient(yellow,red);
+    /* background-image:linear-gradient(green,greenyellow,yellow); */
+    /* background-image:linear-gradient(to right, red,yellow,yellowgreen,green); */
+    /* background-image:linear-gradient(to bottom right,pink,red); */
+    /* background-image:linear-gradient(to bottom left,orange,violet,blue); */
+    /* background-image:linear-gradient(200deg,brown,red,yellowgreen,green); */
+    /* background-image:radial-gradient(green,yellow); */
+    /* background-image:radial-gradient(circle,brown,red,orange,yellow); */
+    /* background-image:radial-gradient(yellow 30%,green 50%, red 20%); */
+}
+#overflow{
+    border:3px solid blue;
+    width:300px;
+    height:100px;
+    /* overflow:visible; */
+    /* overflow:hidden; */
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    /* overflow:scroll; */
+    overflow:auto;
+    /* resize:vertical; */
+    /* resize:horizontal; */
+    /* resize:both; */
+}
+#txtarea{
+    resize:none;
+}
+/* playing with unordered list  */
+#ulst{
+    /* list-style-type:none; */
+    /* list-style-type:circle; */
+    /* list-style-type:decimal; */
+    /* list-style-type:decimal-leading-zero; */
+    /* list-style-type:disc; */
+    /* list-style-type:lower-alpha; */
+    /* list-style-type:lower-greek; */
+    /* list-style-type:lower-latin; */
+    /* list-style-type:lower-roman; */
+    /* list-style-type:upper-alpha; */
+    /* list-style-type:upper-latin; */
+    /* list-style-type:upper-roman; */
+    list-style-type:square;
+    list-style-position:inside;
+    
+    
+}
+
+/* playing with ordered list */
+#olst{
+    /* list-style-type:circle; */
+    /* list-style-type:decimal; */
+    /* list-style-type:decimal-leading-zero; */
+    /* list-style-type:lower-alpha; */
+    /* list-style-type:upper-alpha; */
+    /* list-style-type:lower-roman; */
+    /* list-style-type:upper-alpha; */
+    /* list-style-type:square; */
+    list-style-type:decimal-leading-zero;
+    /* list-style-position:outside; */
+    list-style-position:inside;
+}
+/* li{
+    border:2px solid black;
+    margin:5px;
+    padding:5px;
+} */
+/* this is one table style start */
+#tclr{
+    border:5px solid black;
+    border-collapse:collapse;
+    /* caption-side:bottom; */
+    caption-side:top;    /*thid is default*/
+}
+#tclr th{
+    background-color:red;
+    border:3px solid green;
+    /* border-collapse:collapse; */
+}
+#tclr td{
+    border:3px solid skyblue;
+    /* border-collapse:collapse; */
+    background-color:red; 
+    color:white;
+    padding:3px;
+}
+/* here one table style end */
+
+/* here table 2 style start */
+#tclr2{
+    background-color:yellowgreen;
+    caption-side:bottom;
+    empty-cells:hide;
+}
+#tclr2 th,td{
+    border:2px solid black;
+}
+#tclr2 th{
+    background-color:red;
+}
+#tclr2 td{
+    background-color:orange;
+}
+/* here table 2 style ends */
+
+/* css functions */
+#fun1{
+    background-color:teal;
+    height:200px;
+    /* width:70%; */
+    width:calc(100% - 200px);
+}
+#p1{
+    color:var(--primary-color);
+}
+#p2{
+    color:var(--secondary-color);
+}
+#p3{
+    color:var(--teritary-color);
+}
+#boxs1{
+    /* background-image:linear-gradient(red,green); */
+    background-color:yellow;
+    width:600px;
+    height:200px;
+}
+#boxs2{
+    /* background-image:linear-gradient(orange,skyblue,blue); */
+    background-color:skyblue;
+    border:15px solid black;
+    width:600px;
+    height:200px;
+    padding:20px;
+    /* box-sizing:content-box; */  /*this is the default property*/
+    box-sizing:border-box;
+    /* margin:20px; */
+}
+#grn{
+    color:green;
+}
+#chocolate{
+    color:chocolate;
+    /* text-decoration:none; */
+}
+#initial{
+    color:initial;
+    /* text-decoration:none; */
+}
+#inherit{
+    color:inherit;
+    /* text-decoration:none; */
+}
+input:focus{
+    border:3px solid red;
+}
+::selection{
+    /* color:whitesmoke; */
+    background-color:green;
+}
+#parent{
+    border:2px solid red;
+    padding:20px;
+    width:50%;
+    margin:70px;
+    position:relative;
+}
+#one{
+    background-color:green;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    /* position:fixed; */
+    color:white;
+    text-align:center;
+    font-size:23px;
+    /* position:absolute; */
+    /*position:relative;*/ 
+    /* the relative position wont let any one to occupy its space in case of relative length is calculated from the div actual position*/
+    /* left:40px;
+    top:30px; */
+    /* right:20px;
+    bottom:10px; */
+}
+#two{
+    background-color:orange;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    position:absolute;
+    /* in absolute position the element leave its space and other occupy its space  */
+    top:10px;
+    left:0px;
+}
+#three{
+    background-color:black;
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+#root{
+    border:2px solid purple;
+    width:70%;
+    height:250px;
+    padding:20px;
+    position:absolute;
+    font-size:30px;
+    text-align:center;
+}
+#aa{
+    background-color:red;
+    width:150px;
+    height:150px;
+    display:inline-block;
+    /* position:absolute; */
+    position:relative;
+    /* z-index:1; */
+    /* z-index:3; */
+    /* z-index:3; */
+    /* here z-index work as the priority which one to display first here high number represent the highest priority */
+}
+#bb{
+    background-color:lightskyblue;
+    width:150px;
+    height:150px;
+    display:inline-block;
+    /* position:absolute; */
+    position:relative;
+    top:50px;
+    left:-90px;
+    /* z-index:2; */
+    /* z-index:2; */
+    /* z-index:1; */
+    z-index:3;
+}
+#cc{
+    background-color:darkorange;
+    width:150px;
+    height:150px;
+    text-align:right;
+    display:inline-block;
+    /* position:absolute; */
+    position:relative;
+    top:100px;
+    left:-170px;
+    /* z-index:3; */
+    /* z-index:1; */
+    /* z-index:2; */
+}
+#ull{
+    background-color:green;
+    list-style-type:none;
+    /* border:2px solid red; */
+    overflow:auto;
+}
+#ull li{
+    font-size:20px;
+    color:white;
+    float:left;
+    padding:10px 5px;
+}
+#ull li:active{
+    text-decoration:underline;
+}
+#ull li:hover{
+    font-size:30px;
+}
+#ull li:visited{
+    color:black;
+}
+#ull li:link{
+    color:red;
+}
+#flt{
+    border:2px solid red;
+    overflow:auto;
+}
+#flt img{
+    /* float:right; */
+    padding:5px;
+}
+#img11{
+    /* float:left; */
+    float:right;
+}
+#img22{
+    /* float:left; */
+    float:right;
+    clear:right;
+}
+#cnt1{
+    background-color:orange;
+    width:70%;
+    height:100px;
+    float:left;
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+#cnt2{
+    background-color:grey;
+    width:30%;
+    height:50px;
+    float:left;
+    color:white;
+    font-size:20px;
+}
+#cnt3{
+    background-color:green;
+    width:30%;
+    height:50px;
+    float:left;
+    /* clear:both; */
+    color:white;
+    font-size:20px;
+}
+#ytb{
+    /* border:2px solid coral; */
+    /* border-radius:5px; */
+    /* background-color:coral; */
+    margin:10px;
+    padding:10px;
+    /* background-color:brown; */
+}
+#ytb a{
+    text-decoration:none;
+    background-color: coral;
+    color:white;
+    padding:10px 20px;
+    font-size:20px;
+    /* display:inline-block; */
+    /* transform: skew(20deg, 10deg); */
+}
+#ytb a:hover{
+    display:inline-block;
+    
+    /* transform:translate(50px 50px); */
+    /* transform:rotate(50deg); */
+    /* transform:rotate(-50deg); */
+
+    /* transform:scale(2,3); */
+    /* transform:scale(0.5,0.99); */
+    /* transform:scaleX(2); */
+    /* transform:scaleY(2); */
+
+    transform:skew(20deg, 10deg);
+    /* transform:skewY(15deg); */
+    /* transform:skewX(20deg); */
+
+    /* transform:rotateX(30deg); */
+    /* transform:rotateY(50deg); */
+    /* transform:rotateZ(40deg); */
+
+    /* transform-origin: 0% 100%; */
+    /* transform-origin:100% 0%; */
+}
+#cover{
+    border:2px solid red;
+    width:200px;
+    height:200px;
+    margin:50px;
+}
+#content{
+    width:200px;
+    height:200px;
+    background-color:lightgreen;
+    /* transform:perspective(200px) rotate3d(0, 50, 50, 30deg); */
+    /* transform:perspective(500px) rotate3d(20,30,50,50deg); */
+    /* transform:perspective(150px) rotate3d(0, 20, 10, 30deg); */
+
+    /* transform: perspective(150px) translate3d(50px, 0px, 0px); */
+    /* transform: perspective(10px) translate3d(0px, 50px, 0px); */
+    /* transform:perspective(150px) translate3d(0px, 0px, 50px); */
+    transform:perspective(150px) translate3d(0px,0px,-50px);
+}
+
+#a1{
+    background-color:coral;
+    width:200px;
+    height:200px;
+    margin:10px;
+    float:left;
+    /* transition-property:all; */
+    transition-property:background-color;
+    /* transition-duration:1s; */
+    transition-duration:0.5s;
+}
+#a1:hover{
+    background-color:greenyellow;
+    /* width:250px;
+    height:300px */
+}
+#a2{
+    background-color:yellowgreen;
+    width:200px;
+    height:200px;
+    margin:10px;
+    float:left;
+}
+#a2:hover{
+    background-color:green;
+}
+#a3{
+    background-color:yellow;
+    width:90%;
+    height:70px;
+    clear:both;
+    transition-property:width,height;
+    transition-duration:0.5s;
+}
+#a3 ul{
+    background-color:grey;
+    list-style-type:none;
+    /* overflow:auto; */
+    /* text-align: center; */
+    /* margin-top:100px; */
+}
+#a3 ul>li{
+    background-color:yellowgreen;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+    float:left;
+    margin:15px 10px;
+    padding:10px;
+    transition-property:all;
+    transition-duration: 0.2s;
+}
+#a3 ul>li:hover{
+    transform:scale(1.5,1.5);
+    /* transform:skew(20deg,20deg); */
+    /* transform:translate(10px,5px); */
+    /* transform:prespective(150px) translate3d(0px,10px,30px); */
+    color:white;
+    text-decoration:underline;
+}
+@keyframes change{
+    0%{ background-color:orange; }
+    25%{ background-color:blue; width:25%; }
+    50%{ background-color:red; width:50%; }
+    75%{ background-color:yellowgreen; width:75%; }
+    100%{ background-color:black; width:100%;}
+}
+#animate{
+    background-color:orange;
+    height:100px;
+    width:100px;
+    animation-name:change;
+    animation-duration:3s;
+    /* animation-delay:2s; */
+    /* animation-iteration-count:3; */
+    animation-iteration-count:infinite;
+}
+#animation2{
+    background-color:orangered;
+    height:100px;
+    width:100px;
+    /* float:right; */
+    animation-name:change;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+    clear:both;
+}
+#animation3{
+    background-color:orange;
+    width:100px;
+    height:100px;
+    display:block;
+    float:right;
+    animation-name:change;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+@keyframes cc{
+    10%{ background-color:red; border-radius:0%;}
+    20%{ background-color:yellow; border-radius:10%;}
+    30%{ background-color:blue; border-radius:20%;}
+    40%{ background-color:green; border-radius:30%;}
+    50%{ background-color:black; border-radius:40%;}
+    60%{ background-color:red; border-radius:50%;}
+    70%{ background-color:black; border-radius:40%;}
+    80%{ background-color:green; border-radius:30%;}
+    90%{ background-color:blue; border-radius:20%;}
+    100%{ background-color:yellow; border-radius:10%;}
+    /* 0%{ background-color:red; border-radius:0%;} */
+}
+/* #circlee{
+    width:300px;
+    height:300px;
+    animation-name:cc;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+} */
+@media screen{
+    #mdia>p{
+        font-size:20px;
+    }
+}
+@media print{
+    p{
+        font-size:50px;
+    }
+    img{
+        display:none;
+    }
+    #mdia{
+        width:50%;
+    }
+}
+#query{
+    font-size:50px;
+    width:70%;
+    float:left;
+    background-color:green;
+}
+#query2{
+    font-size:50px;
+    width:30%;
+    float:right;
+    background-color:orange;
+}
+@media screen and (max-width:768px){
+    #query{
+        width:100%;
+    }
+    #query2{
+        width:100%;
+    }
+}
+input[type="number"]{
+    color:orange;
+}
+input[type="text"]{
+    color:blue;
+}
+
+/* for any anchor tag inside the div */
+/* #selectt a{
+    font-size:30px;  
+    color:orange;
+} */
+
+/*only for child anchor tag not nested child anchor tag only direct anchor tag */
+/* #selectt > a{
+    font-size:30px;
+    color:orange;
+} */
+
+/* for sibling tag which are left or right to the selected id */
+/* #selectt+a{
+    font-size:30px;
+    color:green;
+} */
+
+/* for neatest sibling to the selected id */
+#selectt ~ a{
+    font-size:30px;
+    color:pink;
+}
+
+/* element selector has more priority than class selector */
+/* p{
+    color:yellow; 
+} */
+/* this class selector has least priority */
+.mu{
+    color:green;
+}
+/* this "div.mu" is clearly specified than class selector */
+div.mu{
+    color:orange;
+}
+#clmn{
+    text-align:justify;
+    border:10px double deepskyblue;
+    padding:5px; 
+    column-count:3;
+    column-gap:20px;
+    column-rule-style:solid ;
+    column-rule-width:10px;
+    column-rule-color:deeppink;
+}
+#ch{
+    column-span:all;
+}
+.flex-container{
+    background-color:deeppink;
+    /* display:contents; */
+    /* display:flex; */
+    /* display:flow-root; */
+    /* display:table-row; */
+    /* display:inline-flex; */
+    /* display:inline-flexbox; */
+    display:flex;
+    /* flex-direction:row; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:inline-row; */
+    /* flex-direction:column; */
+    /* flex-direction:inline-column; */
+    /* flex-direction:column-reverse; */
+    /* flex-wrap:no-wrap; */
+    flex-wrap:wrap;
+    /* flex-wrap:wrap-reverse; */
+}
+.flex-child{
+    background-color:darkgreen;
+    margin:20px;
+    padding:20px;
+    width:50px;
+    text-align:center;
+}
+#flx{
+    background-color:yellow;
+    display:flex;
+    /* justify-content:end; */
+    /* justify-content:flex-end; */
+    /* justify-content:flex-start; */
+    /* justify-content:first baseline; */
+    /* justify-content:right; */
+    /* justify-content:left; */
+    /* justify-content:space-around; */
+    /* justify-content:space-between; */
+    justify-content:center;
+    height:150px;
+    /* align-items:stretch; */
+    /* align-items:flex-start; */
+    align-items:center;
+    /* align-items:flex-end; */
+}
+#flx > .flxc{
+    background-color:pink;
+    margin:15px;
+    padding:15px;
+    width:100px;
+    text-align:center;
+}
+#flx2{
+    background-color:red;
+    display:flex;
+    height:150px;
+    flex-wrap:wrap;
+    /* align-content:center; */
+    align-content:space-between;
+    /* align-content:space-around; */
+}
+#flx2>.flxx{
+    background-color:yellow;
+    margin:10px;
+    padding:10px;
+    width:100px;
+}
+#main{
+    background-color:grey;
+    width:600px;
+    height:300px;
+}
+#f1{
+    background-color:orange;
+    height:100px;
+}
+#f2{
+    background-color:white;
+    height:100px;
+    background-image:url(/chakra.png);
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#f3{
+    background-color:green;
+    height:100px;
+}
+#flx-prnt{
+    background-color:lightgreen;
+    display:flex;
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+    /* flex-wrap:no-wrap; */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+    /* flex-flow:column wrap; */
+    flex-flow:row wrap;
+}
+.flx-cld{
+    background-color:red;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    margin:10px;
+    padding:10px;
+    width:70px;
+}
+#main2{
+    background-color:pink;
+    display:flex;
+    /* flex-flow:row wrap; */
+    /* justify-content:flex-start; */
+    /* justify-content:flex-end; */
+    /* justify-content:center; */
+    /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    height:250px;
+    /* flex-wrap:no-wrap; */
+    /* align-items:flex-start; */
+    /* align-items:flex-end; */
+    /* align-items:center; */
+    /* align-content:flex-start; */
+    /* align-content:flex-end; */
+    /* align-content:center; */
+    /* align-content:space-around; */
+    /* align-content:space-between; */
+}
+.flx-cld2{
+    background-color:greenyellow;
+    margin:10px;
+    padding:20px;
+    text-align:center;
+    width:50px;
+    
+}
+#o1{
+    order:3;
+    /* flex-grow:1; */
+    /* flex-shrink:2; */
+    align-self:flex-end;
+}
+#o2{
+    order:1;
+    /* flex-grow:1; */
+    /* flex-basis:200px; */
+    align-self:flex-start;
+}
+#o3{
+    order:2;
+    /* flex-grow:2; */
+    align-self:center;
+}
+.grid-main{
+    background-color:orange;
+    padding:20px;
+    display:grid;
+    /* height:200px; */
+    /* display:inline-grid; */
+    /* grid-template-columns:200px 300px auto; */
+    /* grid-template-columns:auto auto auto; */
+    grid-template-columns:10% 30% 20%;
+    grid-template-rows:50px 100px 70px;
+    /* grid-template-rows:auto auto auto; */
+    /* grid-template-rows:20% 50% 30%; */
+    grid-column-gap:10px;
+    grid-row-gap:20px;
+    /* justify-content:start; */
+    /* justify-content:end; */
+    justify-content:center;
+    /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly; */
+    
+}
+.grid-itm{
+    background-color:lime;
+    border:2px solid black;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+}
+/* #g1{ */
+    /* grid-column-start:1;
+    grid-column-end:3; */
+    /* grid-column:1/4; */
+    /* grid-column:1/span 2; */
+    /* grid-row-start:1;
+    grid-row-end:4; */
+    /* grid-row:1/3; */
+    /* grid-row:1/span 4; */
+/* } */
+#g2{
+    /* grid-area:1/2/1/4; */
+    /* grid-area:1/2/4/4; */
+    /* grid-area:1/2/span 3/span 2; */
+    grid-area:1/2/span 2/span 2;
+}
+.l-main{
+    background-color:lime;
+    padding:20px;
+    display:grid;
+    /* display:inline-grid; */
+    /* justify-content:center; */
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    grid-gap:7px;
+}
+.cl1{
+    background-color:orange;
+    padding:10px;
+    /* margin:3px; */
+    text-align:center;
+}
+#l1{
+    grid-area:header;
+}
+#l2{
+    grid-area:menu;
+}
+#l3{
+    grid-area:main;
+}
+#l4{
+    grid-area:right;
+}
+#l5{
+    grid-area:footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
